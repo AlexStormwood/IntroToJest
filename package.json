@@ -1,0 +1,25 @@
+{
+  "name": "introtojest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node ./source/index.js",
+    "elephant": "echo \"Elephant!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexHolderDeveloper/IntroToJest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexHolderDeveloper/IntroToJest/issues"
+  },
+  "homepage": "https://github.com/AlexHolderDeveloper/IntroToJest#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
