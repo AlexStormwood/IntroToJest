@@ -16,9 +16,9 @@ describe('repeatMessage golden path functionality', () => {
         expect(typeof(repeatMessage)).toBe("function");
     });
 
-    test("If given 'hello' and 3 as inputs, repeatMessage will return 'hellohellohello'.", () => {
-        expect(repeatMessage(messageToTest, 3)).toEqual("hellohellohello");
-    });
+    // test("If given 'hello' and 3 as inputs, repeatMessage will return 'hellohellohello'.", () => {
+    //     expect(repeatMessage(messageToTest, 3)).toEqual("hellohellohello");
+    // });
 });
 
 describe('repeatMessage should break..', () => {
